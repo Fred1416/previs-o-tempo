@@ -1,0 +1,5 @@
+# Ignorar pasta de agentes e IA do editor
+.agent/
+
+# Ignorar o arquivo com as chaves reais de API
+config.js

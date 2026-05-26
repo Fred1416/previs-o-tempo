@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("https://loremflickr.com/1600/900/nature,landscape");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-maior {
+    background-color: rgba(9, 0, 0, 0.997);
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    font-size: 20px;
+    flex: 1;
+}
+
+.caixa-pesquisa {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px
+}
+
+.botao {
+    padding: 10px;
+    border: none;
+    background-color: #7c7c7c2b;
+    border-radius: 50%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-botao {
+    width: 25px;
+    height: 25px;
+}
+
+.botao:hover {
+    background-color: #7c7c7c;
+    transform: scale(1.1);
+}
+
+.caixa-menor {
+    margin-top: 30px;
+    color: #ffff;
+}
+
+.cidade {
+    font-size: 25px;
+    color: #ffff;
+}
+
+.temp {
+    font-size: 30px;
+    color: #ffff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 22px;
+    color: #ffff;
+}
+
+.vento {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.umidade {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 10px;
+}
+
+.vento {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 10px;
+}
+
+
+.sensacao {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 10px;
+}
+
+
+.botao-ia {
+    font-size: 25px;
+    color: #ffff;
+    background-color: hsla(233, 97%, 46%, 0.561);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 18px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.botao-ia:hover {
+    background-color: #26119e;
+    transform: scale(1.1);
+}
+
+.resposta-ia {
+    font-size: 15px;
+    color: #ffff;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+    .cidade {
+        font-size: 20px;
+    }
+
+    .temp {
+        font-size: 20px;
+    }
+}
